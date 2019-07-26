@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+ }
+
+body{
+    height: 150vh;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: inherit;
+    }
+
+header{
+    background-color: chocolate;
+}
+
+nav{}
+
+nav ul{
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 30px;
+    display: block;
+}
+
+nav ul li a img{
+    max-width: 100%;
+    width: 150px;
+}
+
+section{
+    
+}
+
+.container{width: 100%;overflow: hidden;}
+
+.content-text{
+    width: 50%;
+    float: left;
+    padding: 170px 0px;
+    text-align: center;
+    color: #fff;
+}
+.content-text h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:  40px;
+}
+
+.content-text p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.content-text ul{
+    list-style: inside;
+    margin-top: 25px;
+}
+
+.content-text li{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.content-text a{
+    color: white;
+    border: solid;
+    background-color: #64d268;
+    padding: 6px 27px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.signup{
+	width: 50%;
+	float: left;
+	padding: 160px 230px;
+	margin: auto;
+}
+
+.form-box{
+    background-color: #64d268;
+    padding: 50px;
+}
+
+.form-box h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-box p{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.form-box strong{}
+
+form{}
+
+form input{
+    width: 100%;
+    margin: 10px;
+    padding: 5px 27px;
+}
+
+form input:last-child{background-color: chocolate;
+	      text-transform: uppercase;
+	      font-weight: 900;
+	      letter-spacing: 10px;
+	      color: white;
+	  }
+
+.form-box ul{}
+
+.form-box ul li{
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    float: left;
+    margin-right: 33px;
+    list-style: none;
+}
+
+.form-box ul li a{border-radius: 50%;background-color: chocolate;color: white;padding: 10px;display: inline-block;width: 33px;height: 32px;font-size: 15px;}
+
+ 
